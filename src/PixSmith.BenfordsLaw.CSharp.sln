@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixSmith.BenfordLaw.Services", "PixSmith.BenfordLaw\PixSmith.BenfordLaw.Services.csproj", "{EBDA3384-4089-4AB9-A978-FA60D1B7BE95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixSmith.BenfordsLaw.CSharp.Services", "PixSmith.BenfordLaw\PixSmith.BenfordsLaw.CSharp.Services.csproj", "{EBDA3384-4089-4AB9-A978-FA60D1B7BE95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixSmith.BenfordLaw.UnitTests", "PixSmith.BenfordLaw.UnitTests\PixSmith.BenfordLaw.UnitTests.csproj", "{3B612E21-9076-46D3-85B5-2291EF616E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixSmith.BenfordsLaw.CSharp.UnitTests", "PixSmith.BenfordLaw.UnitTests\PixSmith.BenfordsLaw.CSharp.UnitTests.csproj", "{3B612E21-9076-46D3-85B5-2291EF616E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixSmith.BenfordLaw.Domain", "PixSmith.BenfordLaw.Domain\PixSmith.BenfordLaw.Domain.csproj", "{C905B335-D809-4DFE-8945-BB33DD763087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixSmith.BenfordsLaw.CSharp.Domain", "PixSmith.BenfordLaw.Domain\PixSmith.BenfordsLaw.CSharp.Domain.csproj", "{C905B335-D809-4DFE-8945-BB33DD763087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

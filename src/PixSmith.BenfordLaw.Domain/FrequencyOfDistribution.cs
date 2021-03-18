@@ -1,4 +1,4 @@
-﻿namespace PixSmith.BenfordLaw.Domain
+﻿namespace PixSmith.BenfordsLaw.CSharp.Domain
 {
     public class FrequencyOfDistribution
     {

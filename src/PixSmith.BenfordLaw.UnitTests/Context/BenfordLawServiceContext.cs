@@ -1,4 +1,4 @@
-﻿namespace PixSmith.BenfordLaw.UnitTests.Context
+﻿namespace PixSmith.BenfordsLaw.CSharp.UnitTests.Context
 {
     public class BenfordLawServiceContext
     {

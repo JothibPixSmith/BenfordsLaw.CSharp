@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PixSmith.BenfordLaw.Domain\PixSmith.BenfordLaw.Domain.csproj" />
+    <ProjectReference Include="..\PixSmith.BenfordLaw.Domain\PixSmith.BenfordsLaw.CSharp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

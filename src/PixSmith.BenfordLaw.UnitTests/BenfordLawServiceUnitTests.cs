@@ -1,6 +1,6 @@
-﻿using PixSmith.BenfordLaw.UnitTests.Context;
+﻿using PixSmith.BenfordsLaw.CSharp.UnitTests.Context;
 
-namespace PixSmith.BenfordLaw.UnitTests
+namespace PixSmith.BenfordsLaw.CSharp.UnitTests
 {
     public class BenfordLawServiceUnitTests : BenfordLawServiceContext
     {
