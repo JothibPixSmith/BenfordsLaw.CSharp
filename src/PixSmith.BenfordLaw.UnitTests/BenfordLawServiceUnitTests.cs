@@ -1,13 +1,21 @@
-﻿using PixSmith.BenfordsLaw.CSharp.UnitTests.Context;
+﻿using System.Linq;
+using PixSmith.BenFordsLaw.CSharp.Services;
+using PixSmith.BenFordsLaw.CSharp.Services.Interfaces;
+using PixSmith.BenFordsLaw.CSharp.UnitTests.Context;
+using Xunit;
 
-namespace PixSmith.BenfordsLaw.CSharp.UnitTests
+namespace PixSmith.BenFordsLaw.CSharp.UnitTests
 {
-    public class BenfordLawServiceUnitTests : BenfordLawServiceContext
+    public class BenFordLawServiceUnitTests : BenFordLawServiceContext
     {
         [Fact]
-        public void Test1()
+        public void TallestBuildingDataSetTest()
         {
+            IBenFordLawService service = new BenFordLawService();
 
+            var resultSet = service.VerifyDataSet(this.TallestBuildings.Select(x => x.Meters).ToArray());
+
+            Assert.Equal(resultSet.Length, resultSet.Count(x => x.ExpectedPercentage > 0));
         }
     }
 }

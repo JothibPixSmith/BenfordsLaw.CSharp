@@ -1,9 +1,9 @@
-﻿using PixSmith.BenfordsLaw.CSharp.Domain;
+﻿using PixSmith.BenFordsLaw.CSharp.Domain;
 
-namespace PixSmith.BenfordsLaw.CSharp.Services.Interfaces
+namespace PixSmith.BenFordsLaw.CSharp.Services.Interfaces
 {
-    public interface IBenfordLawService
+    public interface IBenFordLawService
     {
-        FrequencyOfDistribution[] VerifyDataSet(double[] integerSet);
+        FrequencyOfOccurrence[] VerifyDataSet(double[] integerSet);
     }
 }
